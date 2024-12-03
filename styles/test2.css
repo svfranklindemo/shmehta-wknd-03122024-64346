@@ -1,1 +1,2 @@
-.section.hero-container .hero {height: calc(100vh - 100px);}
+.section.hero-container .hero {height: 100vh;}
+header.header-wrapper {height: auto;}
