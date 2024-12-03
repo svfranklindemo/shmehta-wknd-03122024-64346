@@ -7,9 +7,12 @@ header.header-wrapper {
 
         &.scrolled {
             background-color: #ffffff;
+            .section.nav-sections {
+                filter: unset;
+            }
         }
     }
-    &:not(.scrolled) .section.nav-sections {
+    .section.nav-sections {
         filter: invert(1); /* Inverts the colors completely */
     }
     .section.nav-brand {
