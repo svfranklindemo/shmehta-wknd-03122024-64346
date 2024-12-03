@@ -4,6 +4,10 @@ header.header-wrapper {
 
     .nav-wrapper {
         background-color: transparent;
+
+        &.scrolled {
+            background-color: white;
+        }
     }
     .section.nav-sections {
         filter: invert(1); /* Inverts the colors completely */
