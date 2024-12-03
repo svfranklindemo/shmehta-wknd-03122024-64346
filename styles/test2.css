@@ -1,2 +1,8 @@
 .section.hero-container .hero {height: 100vh;}
-header.header-wrapper {height: auto;}
+header.header-wrapper {
+    height: auto;
+
+    .nav-wrapper {
+        background-color: transparent;
+    }
+}
