@@ -9,7 +9,7 @@ header.header-wrapper {
             background-color: #ffffff;
         }
     }
-    .section.nav-sections {
+    &:not(.scrolled) .section.nav-sections {
         filter: invert(1); /* Inverts the colors completely */
     }
     .section.nav-brand {
