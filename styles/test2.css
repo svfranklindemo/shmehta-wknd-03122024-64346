@@ -8,4 +8,9 @@ header.header-wrapper {
     .section.nav-sections {
         filter: invert(1); /* Inverts the colors completely */
     }
+    .section.nav-brand {
+        img {
+            width: 40px;
+        }
+    }
 }
