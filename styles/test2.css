@@ -5,4 +5,7 @@ header.header-wrapper {
     .nav-wrapper {
         background-color: transparent;
     }
+    .section.nav-sections {
+        filter: invert(1); /* Inverts the colors completely */
+    }
 }
